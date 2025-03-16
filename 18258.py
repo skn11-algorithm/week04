@@ -40,6 +40,7 @@
 # # 시간 초과
 
 # https://imzzan.tistory.com/4
+#
 import sys
 from collections import deque
 n = int(input())

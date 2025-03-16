@@ -1,4 +1,5 @@
 # https://116116.tistory.com/entry/백준-10799번-쇠막대기-python-1
+#
 s = input()
 
 stack = []
