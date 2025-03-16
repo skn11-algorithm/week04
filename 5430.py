@@ -6,9 +6,11 @@ flag=True
 for _ in range(N):
     AC=input()
     d=int(input())
-    arr=list(((input().lstrip('[')).rstrip(']')).rstrip().split(','))
+    arr=input().strip()[1:-1]
+    arr=arr.split(',') if arr else []
+    arr=[int(a) for a in arr]
+
     for ac in AC:
-        flag=True
         if ac=="R":
             arr.reverse()
         elif ac=='D':
@@ -16,10 +18,11 @@ for _ in range(N):
                 flag=False
                 print("error")
             else:
-                if not arr:
+                if len(arr)==0 or not arr:
                     flag=False
                     print("error")
                 else:
+                    flag=True
                     arr=arr[1:]
     if flag:
         print(arr)
