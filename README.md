@@ -12,5 +12,5 @@
 - [10799번 쇠막대기](https://www.acmicpc.net/problem/10799) (채은)
 - [18258번 큐2](https://www.acmicpc.net/problem/18258) (유빈)
 - [1927번 최소힙](https://www.acmicpc.net/problem/1927) (성일)
-- [5439번 AC](https://www.acmicpc.net/problem/5430) (유경)
+- [5430번 AC](https://www.acmicpc.net/problem/5430) (유경)
 - [1021번 회전하는 큐](https://www.acmicpc.net/problem/1021) (정현)
